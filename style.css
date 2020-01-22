@@ -1,0 +1,153 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	background: rgb(17, 17, 17) !important;
+}
+nav {
+	width: 100%;
+	top: 0;
+	position: sticky !important;
+	z-index: 1000;
+}
+nav a {
+	color: white !important;
+	font-weight: bold !important;
+}
+.navbar-nav {
+	margin-left: 40%;
+}
+.navbar-nav li {
+	margin-left: 4vw;
+}
+.navbar-nav li a:hover {
+	color: rgb(21, 108, 167) !important;
+}
+.logo {
+	width: 50px;
+	height: 50px;
+	background: url("assets/Tech.png");
+	background-size: cover;
+	margin-left: 20px;
+	margin-top: 5px;
+
+	box-shadow: -14px 14px 29px #070707, 14px -14px 29px #1b1b1b;
+}
+
+.logo span {
+	position: relative;
+	left: 100%;
+}
+.home {
+	height: 100vh;
+}
+
+.homePagePic img {
+	position: relative;
+	left: 15%;
+	width: 80%;
+}
+.homePageInfo {
+	position: relative;
+	margin-top: 5%;
+	left: 3%;
+	border-radius: 62px;
+	background: linear-gradient(145deg, #121212, #0f0f0f);
+	box-shadow: 41px 41px 60px #090909, -41px -41px 60px #191919;
+	padding: 50px;
+	color: rgba(255, 255, 255, 0.705);
+	max-height: 450px;
+}
+.homePageInfo h1 {
+	margin-top: 1vw;
+	font-size: 2.8rem;
+}
+
+.homePageInfo .learnMore {
+	border: none;
+	border-radius: 1000px;
+	padding: 15px;
+	background: linear-gradient(225deg, #1674b3, #136196);
+	box-shadow: -37px 37px 95px #115a8b, 37px -37px 95px #197ec3;
+	color: white;
+	font-weight: bold;
+	transition: ease-in-out;
+}
+.homePageInfo .learnMore:hover {
+	box-shadow: none;
+	padding: 15px;
+}
+.homePageInfo h1 {
+	padding-top: 10px;
+	text-align: center;
+	color: white;
+}
+.homePageInfo div {
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+.homePageInfo div button {
+	display: block;
+	margin: 0 auto;
+}
+.phoneNo {
+	margin-top: 10px !important;
+	border: none;
+	border-radius: 1000px;
+	padding: 15px;
+	background: linear-gradient(225deg, #1674b3, #136196);
+	color: white;
+	font-weight: bold;
+	transition: ease-in-out;
+	opacity: 0.7;
+	text-decoration: none;
+}
+.phoneNo svg {
+	width: 20px;
+	color: rgb(241, 112, 6);
+}
+
+/*-----------Service------*/
+.services {
+	height: 100vh;
+	background-image: url("assets/Group\ 6@2x.png");
+	background-position: center;
+	background-size: cover;
+}
+.sHeading {
+	height: 40vh;
+}
+.sHeading h1 {
+	text-align: center;
+	position: relative;
+	top: 50%;
+	color: white;
+}
+.sContent {
+	height: 60vh;
+}
+
+.sContent .service {
+	width: 150px;
+	height: 150px;
+	background-color: orange;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+.service {
+	background: linear-gradient(225deg, #b65d09, #ee9848);
+}
+.sCont {
+	text-align: center;
+	width: 100%;
+}
+
+.sCont img {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50px);
+	width: 100px;
+}
