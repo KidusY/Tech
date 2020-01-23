@@ -42,17 +42,17 @@ nav a {
 }
 .home {
 	height: 100vh;
+	margin: 0 auto !important;
 }
 
 .homePagePic img {
 	position: relative;
-	left: 15%;
+	left: 10%;
+	top: 7%;
 	width: 80%;
 }
 .homePageInfo {
-	position: relative;
 	margin-top: 5%;
-	left: 3%;
 	border-radius: 62px;
 	background: linear-gradient(145deg, #121212, #0f0f0f);
 	box-shadow: 41px 41px 60px #090909, -41px -41px 60px #191919;
@@ -127,7 +127,9 @@ nav a {
 	color: white;
 }
 .sContent {
-	height: 60vh;
+	margin: 0 auto;
+	height: 90vh;
+	padding: 0 !important;
 }
 
 .sContent .service {
@@ -138,16 +140,47 @@ nav a {
 	margin: 0 auto;
 }
 .service {
+	margin-left: 6%;
 	background: linear-gradient(225deg, #b65d09, #ee9848);
+	width: 100%;
 }
 .sCont {
 	text-align: center;
 	width: 100%;
+	padding: 0 !important;
 }
-
+.infoBg {
+	padding: 0 50px;
+}
 .sCont img {
 	position: relative;
 	top: 50%;
 	transform: translateY(-50px);
 	width: 100px;
+}
+
+@media (max-width: 1024px) {
+	.homePageInfo h1 {
+		margin-top: 0;
+		font-size: 1.8rem;
+	}
+	.sHeading h1 {
+		top: 40%;
+	}
+	.sContent .service {
+		width: 100px;
+		height: 100px;
+	}
+	.sCont img {
+		position: relative;
+		top: 50%;
+		transform: translateY(-35px);
+		width: 70px;
+	}
+	.infoBg {
+		margin: 0 auto;
+		width: 80%;
+		background: rgb(231, 231, 231);
+		border-radius: 50px;
+	}
 }
