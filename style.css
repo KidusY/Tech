@@ -41,7 +41,6 @@ nav a {
 	left: 100%;
 }
 .home {
-	height: 100vh;
 	margin: 0 auto !important;
 }
 
@@ -160,12 +159,24 @@ nav a {
 }
 
 @media (max-width: 1024px) {
+	.homePagePic img {
+		position: relative;
+		left: 10%;
+		top: -10%;
+		width: 80%;
+	}
 	.homePageInfo h1 {
 		margin-top: 0;
 		font-size: 1.8rem;
 	}
+	.services {
+		margin-top: 20%;
+	}
+	.service {
+		transform: translateX(17%);
+	}
 	.sHeading h1 {
-		top: 40%;
+		top: 30%;
 	}
 	.sContent .service {
 		width: 100px;
@@ -182,5 +193,6 @@ nav a {
 		width: 80%;
 		background: rgb(231, 231, 231);
 		border-radius: 50px;
+		transform: translateX(4.5%);
 	}
 }
