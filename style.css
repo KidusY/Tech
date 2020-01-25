@@ -262,8 +262,9 @@ nav a {
 	.infoBg {
 		margin: 0 auto;
 		width: 80%;
-		background: rgb(231, 231, 231);
+		background: rgb(204, 204, 204);
 		border-radius: 50px;
 		transform: translateX(4.5%);
+		padding: 10px;
 	}
 }
