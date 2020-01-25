@@ -1,7 +1,9 @@
-* {
+*,
+html {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 body {
 	background: rgb(17, 17, 17) !important;
@@ -41,7 +43,10 @@ nav a {
 	left: 100%;
 }
 .home {
+	width: 100%;
 	margin: 0 auto !important;
+	padding: 0 !important;
+	border: none;
 }
 
 .homePagePic img {
@@ -111,10 +116,10 @@ nav a {
 
 /*-----------Service------*/
 .services {
-	height: 100vh;
 	background-image: url("assets/Group\ 6@2x.png");
 	background-position: center;
 	background-size: cover;
+	overflow: hidden;
 }
 .sHeading {
 	height: 40vh;
@@ -127,7 +132,6 @@ nav a {
 }
 .sContent {
 	margin: 0 auto;
-	height: 90vh;
 	padding: 0 !important;
 }
 
@@ -156,6 +160,73 @@ nav a {
 	top: 50%;
 	transform: translateY(-50px);
 	width: 100px;
+}
+
+.contactUs {
+	height: 100vh;
+}
+.contactUs h1 {
+	margin-top: 10px;
+	text-align: center;
+	color: white;
+}
+.contactUs form {
+	transform: translateY(10%);
+	width: 70%;
+	max-width: 500px;
+	display: block;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 62px;
+	background: linear-gradient(145deg, #121212, #0f0f0f);
+	box-shadow: 41px 41px 60px #090909, -41px -41px 60px #191919;
+}
+.contactUs form input {
+	width: 15rem;
+	display: block;
+	margin: 5px auto;
+	border: none;
+	border-radius: 50px;
+	padding: 6px;
+	text-align: center;
+}
+.contactUs form input:hover {
+	padding: 8px;
+}
+.contactUs form textarea {
+	width: 15rem;
+	display: block;
+	margin: 5px auto;
+	border: none;
+	border-radius: 50px;
+	padding: 6px;
+	text-align: center;
+}
+.contactUs form textarea:hover {
+	padding: 8px;
+}
+#formBtn {
+	padding: 2px 20px;
+	font-weight: bold;
+	background-color: rgb(202, 104, 12);
+	color: white;
+}
+#formBtn:hover {
+	padding: 3px 22px;
+	background-color: rgb(21, 134, 199);
+}
+.socialMedia {
+	display: block;
+	position: relative;
+	top: -30%;
+	float: right;
+	padding-right: 10px;
+}
+.socialMedia img {
+	display: block;
+	width: 100%;
+	max-width: 30px;
+	margin-top: 10px;
 }
 
 @media (max-width: 1024px) {
