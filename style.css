@@ -5,6 +5,9 @@ html {
 	box-sizing: border-box;
 	scroll-behavior: smooth;
 }
+a {
+	text-decoration: none !important;
+}
 body {
 	background: rgb(17, 17, 17) !important;
 }
@@ -55,6 +58,7 @@ nav a {
 	top: 7%;
 	width: 80%;
 }
+
 .homePageInfo {
 	margin-top: 5%;
 	border-radius: 62px;
@@ -106,8 +110,12 @@ nav a {
 	color: white;
 	font-weight: bold;
 	transition: ease-in-out;
-	opacity: 0.7;
+	filter: brightness(80%);
 	text-decoration: none;
+}
+.phoneNo:hover {
+	filter: brightness(100%);
+	transform: scale(1.1);
 }
 .phoneNo svg {
 	width: 20px;
@@ -191,7 +199,7 @@ nav a {
 	text-align: center;
 }
 .contactUs form input:hover {
-	padding: 8px;
+	transform: scale(1.1);
 }
 .contactUs form textarea {
 	width: 15rem;
@@ -203,7 +211,7 @@ nav a {
 	text-align: center;
 }
 .contactUs form textarea:hover {
-	padding: 8px;
+	transform: scale(1.05);
 }
 #formBtn {
 	padding: 2px 20px;
@@ -212,7 +220,7 @@ nav a {
 	color: white;
 }
 #formBtn:hover {
-	padding: 3px 22px;
+	transform: scale(1.1);
 	background-color: rgb(21, 134, 199);
 }
 .socialMedia {
